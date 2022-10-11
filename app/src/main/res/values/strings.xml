@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Performance Sandbox</string>
+
+    <string name="scenario_section_concurrency">Concurrency</string>
+    <string name="scenario_coroutines">Coroutines</string>
+    <string name="scenario_coroutines_looping">Looping Coroutines</string>
+    <string name="scenario_coroutines_leaky">Leaky Coroutines</string>
+    <string name="scenario_threadpool">Thread Pool</string>
+    <string name="scenario_threadpool_looping">Looping Thread Pool</string>
+    <string name="scenario_threadpool_leaky">Leaky Thread Pool</string>
+    <string name="scenario_threads">Threads</string>
+    <string name="scenario_threads_looping">Looping Threads</string>
+    <string name="scenario_threads_leaky">Leaky Threads</string>
+    <string name="thread_description_format">Threads execute work then sleep %d milliseconds.</string>
+    <string name="thread_description_looping_format">Threads execute work, sleep %d milliseconds, then loop infinitely.</string>
+    <string name="coroutine_description_format">Coroutines execute work then delay %d milliseconds.</string>
+    <string name="corutine_description_looping_format">Coroutines execute work, delay %d milliseconds, then loop infinitely.</string>
+    <string name="threadpool_size_format">Thread Pool Size: %d</string>
+    <string name="threads_created_format">Thread Count: %d</string>
+    <string name="coroutines_launched_format">Coroutines Launched: %d</string>
+    <string name="coroutine_dispatcher_used_format">Dispatcher used: %s</string>
+
+
+</resources>

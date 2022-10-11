@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ScenarioSectionHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_section_concurrency" />
+
+            <TextView
+                android:id="@+id/threads"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_threads" />
+
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                android:id="@+id/thread_pool"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_threadpool" />
+
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                android:id="@+id/coroutines"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_coroutines" />
+
+
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                android:id="@+id/looping_threads"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_threads_looping" />
+
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                android:id="@+id/looping_thread_pool"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_threadpool_looping" />
+
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                android:id="@+id/looping_coroutines"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_coroutines_looping" />
+
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                android:id="@+id/leaky_threads"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_threads_leaky" />
+
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                android:id="@+id/leaky_thread_pool"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_threadpool_leaky" />
+
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                android:id="@+id/leaky_coroutines"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_coroutines_leaky" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
