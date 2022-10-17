@@ -31,11 +31,12 @@ Scenarios marked as `Leaky` will loop and will not be torn down in `onDestroy`
 
 `Leaked Activity` will instantiate a new activity and added a reference to the Application subclass, thus creating a memory leak.
 
+`Object Churn` is a scenario that allows you to create a large number of churned objects to trigger garbage collection. An indeterminate progress bar is rendered to help visualize UI thread choppiness from GC.
+
 # TODO
 
 * Profileable flag
 * Display stats and descriptions for each scenario
-* Excessive object churn/GC scenario
 * Complex view hierarchy scenario
 * RV scenario
 * Compose scenarios

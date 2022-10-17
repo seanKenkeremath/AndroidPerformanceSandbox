@@ -116,6 +116,15 @@
                 android:layout_height="wrap_content"
                 android:text="@string/scenario_memory_leaked_activity" />
 
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                android:id="@+id/object_churn_activity"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_memory_object_churn" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
     </ScrollView>
 

@@ -24,5 +24,9 @@
         <item name="android:padding">@dimen/scenario_list_item_padding</item>
     </style>
 
+    <style name="Button">
+        <item name="android:padding">@dimen/button_padding</item>
+    </style>
+
     <style name="Stat" parent="TextAppearance.AppCompat.Body2"></style>
 </resources>

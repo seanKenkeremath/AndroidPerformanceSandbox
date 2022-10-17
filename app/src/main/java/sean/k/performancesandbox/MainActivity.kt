@@ -7,6 +7,7 @@ import sean.k.performancesandbox.scenario.concurrency.CoroutinesActivity
 import sean.k.performancesandbox.scenario.concurrency.LooseThreadsActivity
 import sean.k.performancesandbox.scenario.concurrency.ThreadPoolActivity
 import sean.k.performancesandbox.scenario.memory.MemoryLeakActivity
+import sean.k.performancesandbox.scenario.memory.ObjectChurnActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -139,6 +140,11 @@ class MainActivity : AppCompatActivity() {
         binding.leakedActivity.setOnClickListener {
             startActivity(
                 MemoryLeakActivity.getStartIntent(this)
+            )
+        }
+        binding.objectChurnActivity.setOnClickListener {
+            startActivity(
+                ObjectChurnActivity.getStartIntent(this)
             )
         }
     }

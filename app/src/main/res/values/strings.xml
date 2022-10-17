@@ -23,8 +23,12 @@
 
     <!-- Memory -->
     <string name="scenario_section_memory">Memory</string>
-    <string name="memory_leak_activity_description">A leaked reference to this activity has been added to the application subclass</string>
     <string name="scenario_memory_leaked_activity">Leaked Activity</string>
-
+    <string name="scenario_memory_object_churn">Object Churn</string>
+    <string name="memory_leak_activity_description">A leaked reference to this activity has been added to the application subclass</string>
+    <string name="object_churn_activity_description_format">Click the button to create %d new objects. These will replace the previous objects. Continue doing this to trigger garbage collection of unreferenced objects</string>
+    <string name="object_churn_activity_button">Create objects</string>
+    <string name="object_churn_activity_count_format">%d objects created</string>
+    <string name="object_churn_progress_label">GC will cause lag in UI rendering. Look for choppiness in this progress animation:</string>
 
 </resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="activity_padding">32dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
     <dimen name="scenario_list_item_padding">16dp</dimen>
     <dimen name="scenario_section_header_top_margin">16dp</dimen>
     <dimen name="scenario_section_header_bottom_margin">8dp</dimen>

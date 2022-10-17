@@ -27,6 +27,9 @@
             android:name=".scenario.memory.MemoryLeakActivity"
             android:exported="false" />
         <activity
+            android:name=".scenario.memory.ObjectChurnActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
