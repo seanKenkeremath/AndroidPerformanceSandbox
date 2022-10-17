@@ -6,6 +6,7 @@ import sean.k.performancesandbox.databinding.ActivityMainBinding
 import sean.k.performancesandbox.scenario.concurrency.CoroutinesActivity
 import sean.k.performancesandbox.scenario.concurrency.LooseThreadsActivity
 import sean.k.performancesandbox.scenario.concurrency.ThreadPoolActivity
+import sean.k.performancesandbox.scenario.memory.MemoryLeakActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -129,6 +130,15 @@ class MainActivity : AppCompatActivity() {
                     delayTime = THREAD_DELAY,
                     leaky = true
                 )
+            )
+        }
+
+        /**
+         * Memory
+         */
+        binding.leakedActivity.setOnClickListener {
+            startActivity(
+                MemoryLeakActivity.getStartIntent(this)
             )
         }
     }

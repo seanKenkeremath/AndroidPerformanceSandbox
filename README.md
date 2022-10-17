@@ -31,7 +31,6 @@ Scenarios marked as `Leaky` will loop and will not be torn down in `onDestroy`
 
 * Profileable flag
 * Display stats and descriptions for each scenario
-* Basic Activity memory leak scenario
 * Excessive object churn/GC scenario
 * Complex view hierarchy scenario
 * RV scenario

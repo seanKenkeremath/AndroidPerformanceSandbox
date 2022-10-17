@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Performance Sandbox</string>
 
+    <!-- Concurrency -->
     <string name="scenario_section_concurrency">Concurrency</string>
     <string name="scenario_coroutines">Coroutines</string>
     <string name="scenario_coroutines_looping">Looping Coroutines</string>
@@ -19,6 +20,11 @@
     <string name="threads_created_format">Thread Count: %d</string>
     <string name="coroutines_launched_format">Coroutines Launched: %d</string>
     <string name="coroutine_dispatcher_used_format">Dispatcher used: %s</string>
+
+    <!-- Memory -->
+    <string name="scenario_section_memory">Memory</string>
+    <string name="memory_leak_activity_description">A leaked reference to this activity has been added to the application subclass</string>
+    <string name="scenario_memory_leaked_activity">Leaked Activity</string>
 
 
 </resources>

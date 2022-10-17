@@ -11,6 +11,7 @@
     </style>
 
     <style name="ScenarioSectionHeader" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textStyle">bold</item>
         <item name="android:layout_marginTop">@dimen/scenario_section_header_top_margin</item>
         <item name="android:layout_marginBottom">@dimen/scenario_section_header_bottom_margin</item>
         <item name="android:layout_marginStart">@dimen/scenario_section_header_horizontal_margin
@@ -23,6 +24,5 @@
         <item name="android:padding">@dimen/scenario_list_item_padding</item>
     </style>
 
-    <style name="Stat" parent="TextAppearance.AppCompat.Body2">
-    </style>
+    <style name="Stat" parent="TextAppearance.AppCompat.Body2"></style>
 </resources>

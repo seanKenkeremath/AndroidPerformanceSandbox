@@ -101,6 +101,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/scenario_coroutines_leaky" />
 
+            <include layout="@layout/include_divider" />
+
+            <TextView
+                style="@style/ScenarioSectionHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_section_memory" />
+
+            <TextView
+                android:id="@+id/leaked_activity"
+                style="@style/ScenarioListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scenario_memory_leaked_activity" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
     </ScrollView>
 
