@@ -27,6 +27,10 @@ Examples are provided of Activities executing the same work in parallel in vario
 Scenarios marked as `Looping` will execute threads/coroutines that loop forever with a delay between work. These will still be cleaned up when the Activity is destroyed.
 Scenarios marked as `Leaky` will loop and will not be torn down in `onDestroy`
 
+## Memory
+
+`Leaked Activity` will instantiate a new activity and added a reference to the Application subclass, thus creating a memory leak.
+
 # TODO
 
 * Profileable flag
